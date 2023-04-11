@@ -1,0 +1,51 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+.cuadrado-morado{
+    background-color: blueviolet;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+.cuadrado-relativo{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.cuadrado-absoluto{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: absolute;
+    right: 10px;
+}
+.cuadrado-flotante{
+    background-color: rgb(13, 213, 13);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    float: right;
+}
+.cuadrado-invicible{
+    background-color: rgb(244, 10, 10);
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+
+.cuadrado-inexsistente{
+    background-color: rgb(244, 10, 193);
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: none;
+} 
